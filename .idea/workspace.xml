@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="cdcc5ea4-f8de-439e-ad26-fe22cc7c5821" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/core/Connect4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ui/Connect4TextConsole.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Jesse Wheeler &lt;jesse.stuart.wheeler@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1jO3iFUxBJaCEnK6C8cW6lrF3R1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RunManager">
+    <configuration name="Connect4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="core.Connect4" />
+      <module name="Connect4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="core.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Connect4" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cdcc5ea4-f8de-439e-ad26-fe22cc7c5821" name="Default Changelist" comment="" />
+      <created>1603661435861</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1603661435861</updated>
+      <workItem from="1603661437684" duration="281000" />
+      <workItem from="1603661728211" duration="124000" />
+    </task>
+    <task id="LOCAL-00001" summary="Initializing repo">
+      <created>1603661637382</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603661637382</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initializing repo" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initializing repo" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1881" y="697" key="#Illuminated_Cloud_(Project)" timestamp="1603661479221">
+      <screen x="0" y="23" width="3008" height="1669" />
+    </state>
+    <state x="1881" y="697" key="#Illuminated_Cloud_(Project)/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661479221" />
+    <state x="1744" y="439" key="#Project_Structure" timestamp="1603661789536">
+      <screen x="0" y="23" width="3008" height="1669" />
+    </state>
+    <state x="1744" y="439" key="#Project_Structure/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661789536" />
+    <state x="1090" y="451" key="CommitChangelistDialog2" timestamp="1603661637293">
+      <screen x="0" y="23" width="3008" height="1669" />
+    </state>
+    <state x="1090" y="451" key="CommitChangelistDialog2/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661637293" />
+    <state width="2966" height="484" key="GridCell.Tab.0.bottom" timestamp="1603661717976">
+      <screen x="0" y="23" width="3008" height="1669" />
+    </state>
+    <state width="2966" height="484" key="GridCell.Tab.0.bottom/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661717976" />
+    <state width="2966" height="484" key="GridCell.Tab.0.center" timestamp="1603661717975">
+      <screen x="0" y="23" width="3008" height="1669" />
+    </state>
+    <state width="2966" height="484" key="GridCell.Tab.0.center/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661717975" />
+    <state width="2966" height="484" key="GridCell.Tab.0.left" timestamp="1603661717975">
+      <screen x="0" y="23" width="3008" height="1669" />
+    </state>
+    <state width="2966" height="484" key="GridCell.Tab.0.left/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661717975" />
+    <state width="2966" height="484" key="GridCell.Tab.0.right" timestamp="1603661717976">
+      <screen x="0" y="23" width="3008" height="1669" />
+    </state>
+    <state width="2966" height="484" key="GridCell.Tab.0.right/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661717976" />
+    <state x="1005" y="496" key="SettingsEditor" timestamp="1603661676549">
+      <screen x="0" y="23" width="3008" height="1669" />
+    </state>
+    <state x="1005" y="496" key="SettingsEditor/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661676549" />
+  </component>
+</project>
