@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdcc5ea4-f8de-439e-ad26-fe22cc7c5821" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/core/Connect4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ui/Connect4TextConsole.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +76,7 @@
       <option name="presentableId" value="Default" />
       <updated>1603661435861</updated>
       <workItem from="1603661437684" duration="281000" />
-      <workItem from="1603661728211" duration="124000" />
+      <workItem from="1603661728211" duration="172000" />
     </task>
     <task id="LOCAL-00001" summary="Initializing repo">
       <created>1603661637382</created>
@@ -87,7 +85,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603661637382</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Initializing repo">
+      <created>1603661884797</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1603661884797</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,10 +111,10 @@
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
     <state x="1744" y="439" key="#Project_Structure/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661789536" />
-    <state x="1090" y="451" key="CommitChangelistDialog2" timestamp="1603661637293">
+    <state x="1090" y="451" key="CommitChangelistDialog2" timestamp="1603661884718">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
-    <state x="1090" y="451" key="CommitChangelistDialog2/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661637293" />
+    <state x="1090" y="451" key="CommitChangelistDialog2/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661884718" />
     <state width="2966" height="484" key="GridCell.Tab.0.bottom" timestamp="1603661717976">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
@@ -130,5 +135,9 @@
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
     <state x="1005" y="496" key="SettingsEditor/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661676549" />
+    <state x="1104" y="584" key="Vcs.Push.Dialog.v2" timestamp="1603661889552">
+      <screen x="0" y="23" width="3008" height="1669" />
+    </state>
+    <state x="1104" y="584" key="Vcs.Push.Dialog.v2/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661889552" />
   </component>
 </project>
