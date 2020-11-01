@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdcc5ea4-f8de-439e-ad26-fe22cc7c5821" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/fx.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/Connect4ComputerPlayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/InvalidBoardStateException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/core/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Connect4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Connect4.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/Connect4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/Connect4.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ui/Connect4TextConsole.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ui/Connect4TextConsole.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,12 +45,18 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="core" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="Connect4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -76,7 +89,9 @@
       <option name="presentableId" value="Default" />
       <updated>1603661435861</updated>
       <workItem from="1603661437684" duration="281000" />
-      <workItem from="1603661728211" duration="172000" />
+      <workItem from="1603661728211" duration="3021000" />
+      <workItem from="1604013186385" duration="2783000" />
+      <workItem from="1604170122244" duration="11393000" />
     </task>
     <task id="LOCAL-00001" summary="Initializing repo">
       <created>1603661637382</created>
@@ -92,7 +107,14 @@
       <option name="project" value="LOCAL" />
       <updated>1603661884797</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Updating project config files">
+      <created>1603661924799</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1603661924799</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -100,44 +122,96 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initializing repo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Initializing repo" />
+    <MESSAGE value="Updating project config files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updating project config files" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1881" y="697" key="#Illuminated_Cloud_(Project)" timestamp="1603661479221">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
     <state x="1881" y="697" key="#Illuminated_Cloud_(Project)/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661479221" />
-    <state x="1744" y="439" key="#Project_Structure" timestamp="1603661789536">
-      <screen x="0" y="23" width="3008" height="1669" />
+    <state x="182" y="376" key="#Project_Structure" timestamp="1604029757013">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
+    <state x="182" y="376" key="#Project_Structure/-1440.-933.1440.2537/-3120.8.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1604029757013" />
     <state x="1744" y="439" key="#Project_Structure/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661789536" />
-    <state x="1090" y="451" key="CommitChangelistDialog2" timestamp="1603661884718">
+    <state x="896" y="427" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog" timestamp="1604029706532">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="896" y="427" key="#com.intellij.ide.util.frameworkSupport.AddFrameworkSupportDialog/-1440.-933.1440.2537/-3120.8.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1604029706532" />
+    <state x="1090" y="451" key="CommitChangelistDialog2" timestamp="1603661924722">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
-    <state x="1090" y="451" key="CommitChangelistDialog2/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661884718" />
-    <state width="2966" height="484" key="GridCell.Tab.0.bottom" timestamp="1603661717976">
-      <screen x="0" y="23" width="3008" height="1669" />
+    <state x="1090" y="451" key="CommitChangelistDialog2/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661924722" />
+    <state width="1638" height="227" key="GridCell.Tab.0.bottom" timestamp="1604259267810">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state width="2518" height="561" key="GridCell.Tab.0.bottom/-1440.-933.1440.2537/-3120.8.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1604256047496" />
     <state width="2966" height="484" key="GridCell.Tab.0.bottom/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661717976" />
-    <state width="2966" height="484" key="GridCell.Tab.0.center" timestamp="1603661717975">
-      <screen x="0" y="23" width="3008" height="1669" />
+    <state width="1638" height="227" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1604259267810" />
+    <state width="1638" height="227" key="GridCell.Tab.0.center" timestamp="1604259267809">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state width="2518" height="561" key="GridCell.Tab.0.center/-1440.-933.1440.2537/-3120.8.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1604256047495" />
     <state width="2966" height="484" key="GridCell.Tab.0.center/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661717975" />
-    <state width="2966" height="484" key="GridCell.Tab.0.left" timestamp="1603661717975">
-      <screen x="0" y="23" width="3008" height="1669" />
+    <state width="1638" height="227" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1604259267809" />
+    <state width="1638" height="227" key="GridCell.Tab.0.left" timestamp="1604259267809">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state width="2518" height="561" key="GridCell.Tab.0.left/-1440.-933.1440.2537/-3120.8.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1604256047495" />
     <state width="2966" height="484" key="GridCell.Tab.0.left/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661717975" />
-    <state width="2966" height="484" key="GridCell.Tab.0.right" timestamp="1603661717976">
-      <screen x="0" y="23" width="3008" height="1669" />
+    <state width="1638" height="227" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1604259267809" />
+    <state width="1638" height="227" key="GridCell.Tab.0.right" timestamp="1604259267810">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state width="2518" height="561" key="GridCell.Tab.0.right/-1440.-933.1440.2537/-3120.8.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1604256047496" />
     <state width="2966" height="484" key="GridCell.Tab.0.right/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661717976" />
-    <state x="1005" y="496" key="SettingsEditor" timestamp="1603661676549">
-      <screen x="0" y="23" width="3008" height="1669" />
+    <state width="1638" height="227" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1604259267810" />
+    <state width="1638" height="336" key="GridCell.Tab.1.bottom" timestamp="1604259260804">
+      <screen x="0" y="23" width="1680" height="1027" />
     </state>
+    <state width="2518" height="492" key="GridCell.Tab.1.bottom/-1440.-933.1440.2537/-3120.8.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1604180957511" />
+    <state width="1638" height="336" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1604259260804" />
+    <state width="1638" height="336" key="GridCell.Tab.1.center" timestamp="1604259260803">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="2518" height="492" key="GridCell.Tab.1.center/-1440.-933.1440.2537/-3120.8.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1604180957510" />
+    <state width="1638" height="336" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1604259260803" />
+    <state width="1638" height="336" key="GridCell.Tab.1.left" timestamp="1604259260803">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="2518" height="492" key="GridCell.Tab.1.left/-1440.-933.1440.2537/-3120.8.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1604180957509" />
+    <state width="1638" height="336" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1604259260803" />
+    <state width="1638" height="336" key="GridCell.Tab.1.right" timestamp="1604259260804">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="2518" height="492" key="GridCell.Tab.1.right/-1440.-933.1440.2537/-3120.8.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1604180957510" />
+    <state width="1638" height="336" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1604259260804" />
+    <state x="855" y="425" key="SettingsEditor" timestamp="1604030714872">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="855" y="425" key="SettingsEditor/-1440.-933.1440.2537/-3120.8.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1604030714872" />
     <state x="1005" y="496" key="SettingsEditor/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661676549" />
-    <state x="1104" y="584" key="Vcs.Push.Dialog.v2" timestamp="1603661889552">
+    <state x="1104" y="584" key="Vcs.Push.Dialog.v2" timestamp="1603661937034">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
-    <state x="1104" y="584" key="Vcs.Push.Dialog.v2/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661889552" />
+    <state x="1104" y="584" key="Vcs.Push.Dialog.v2/-1692.-933.1692.2985/-3372.8.1680.1027/0.23.3008.1669@0.23.3008.1669" timestamp="1603661937034" />
+    <state x="1068" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1604178082469">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="1068" y="652" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1440.-933.1440.2537/-3120.8.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1604178082469" />
+    <state x="648" y="354" key="new project wizard" timestamp="1604030378944">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="648" y="354" key="new project wizard/-1440.-933.1440.2537/-3120.8.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1604030378944" />
+    <state x="945" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1604256212680">
+      <screen x="0" y="23" width="2560" height="1417" />
+    </state>
+    <state x="945" y="348" width="670" height="676" key="search.everywhere.popup/-1440.-933.1440.2537/-3120.8.1680.1027/0.23.2560.1417@0.23.2560.1417" timestamp="1604256212680" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Project$Connect4.ic" NAME="Connect4 Coverage Results" MODIFIED="1604023725647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>core.*</FILTER>
+    </SUITE>
   </component>
 </project>

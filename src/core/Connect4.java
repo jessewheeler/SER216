@@ -23,23 +23,26 @@ public class Connect4
     /** Name of Game (used for UI References) */
     private final String gameName = "Connect4";
     /** Array of players and their attributes */
-    private Player[] players;
+    private final Player[] players;
     /** Game Board */
     private Board board;
     /** Winner of game */
     private Player winner;
     /** Current player */
     private int currentPlayerIndex;
+    /** Indicates player is playing against computer */
+    private boolean singlePlayerMode;
+    /** Holds computer player object when single player mode is true, otherwise is null */
+    private Connect4ComputerPlayer computer;
     /** UI Type */
-    private uiType uiSelection;
+    private final uiType uiSelection;
 
     /**
-     * Public constructor - sets up default players and UI mode
+     * Public constructor - sets up UI mode
      */
     public Connect4()
     {
         this.players = new Player[MAX_PLAYERS];
-        this.setDefaultPlayers();
         this.uiSelection = uiType.CONSOLE;
         this.currentPlayerIndex = 0;
         this.board = new Board();
@@ -51,6 +54,16 @@ public class Connect4
     public String getGameName() {
         return this.gameName;
     }
+
+    /**
+     * @return computer player
+     */
+    public Connect4ComputerPlayer getComputer() { return computer; }
+
+    /**
+     * @return true if player is playing against computer
+     */
+    public boolean isSinglePlayerMode() { return singlePlayerMode; }
 
     /**
      * @return current game board state
@@ -72,9 +85,22 @@ public class Connect4
     /**
      * Sets up default players
      */
-    private void setDefaultPlayers() {
+    public void setDefaultPlayers() {
         this.players[0] = new Player("Player 1", "X");
         this.players[1] = new Player("Player 2", "O");
+        this.singlePlayerMode = false;
+    }
+
+    /**
+     * Sets up single player and computer player
+     */
+
+    public void setSinglePlayerMode() {
+        Connect4ComputerPlayer computer = new Connect4ComputerPlayer("O");
+        this.players[0] = new Player("Player 1", "X");
+        this.players[1] = computer;
+        this.computer = computer;
+        singlePlayerMode = true;
     }
 
     /**
@@ -323,39 +349,6 @@ public class Connect4
             while(board[row][column-1] != null)
                 row--;
             board[row][column-1] = player.getPlayerToken();
-        }
-    }
-
-    /**
-     * Representation of single player
-     */
-    public class Player {
-
-        //INSTANCE METHODS
-        private String playerName;
-        private String playerToken;
-
-        /**
-         * Public Player Constructor - sets values
-         * @param name Player Name
-         * @param token Player token to be used on game board
-         */
-        public Player(String name, String token) {
-            this.playerName  = name;
-            this.playerToken = token;
-        }
-
-        /**
-         * @return Player Token
-         */
-        public String getPlayerToken() { return playerToken; }
-
-        /**
-         * @return Player Name
-         */
-        public String getPlayerName()
-        {
-            return playerName;
         }
     }
 
