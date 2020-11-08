@@ -4,6 +4,8 @@ import java.util.Random;
 
 /**
  * Computer Player - used when user opts to play against computer in Connect4
+ * @author Jesse Wheeler
+ * @version 1.0
  */
 public class Connect4ComputerPlayer extends Player {
 
@@ -22,8 +24,8 @@ public class Connect4ComputerPlayer extends Player {
      * Constructor that defaults difficulty to Easy
      * @param token Computer token for Connect 4
      */
-    public Connect4ComputerPlayer(String token) {
-        this(token, ComputerDifficulty.easy);
+    public Connect4ComputerPlayer(String token, String color) {
+        this(token, color, ComputerDifficulty.easy);
     }
 
     /**
@@ -31,9 +33,10 @@ public class Connect4ComputerPlayer extends Player {
      * @param token Computer token for Connect 4
      * @param difficulty Accepts easy or hard, and determines sophistication of computer-generated moves
      */
-    public Connect4ComputerPlayer(String token, ComputerDifficulty difficulty) {
+    public Connect4ComputerPlayer(String token, String color, ComputerDifficulty difficulty) {
         this.playerName = "Computer";
         this.playerToken = token;
+        this.playerColor = color;
         this.isHuman = false;
         this.difficulty = difficulty;
     }

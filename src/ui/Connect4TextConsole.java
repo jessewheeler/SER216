@@ -7,7 +7,7 @@ import java.util.Scanner;
 /**
  * Console UI for Connect4 Game
  * @author Jesse Wheeler
- * @version 1.0
+ * @version 1.2
  */
 public class Connect4TextConsole {
 
@@ -118,7 +118,7 @@ public class Connect4TextConsole {
      */
     private void promptForPlayAgainstComputer() {
         String response = getUserInput(
-                "Enter 'P' if you want to play against another player; +" +
+                "Enter 'P' if you want to play against another player; " +
                         "enter 'C' if you want to play against the computer."
         );
         while(!response.equalsIgnoreCase("P") && !response.equalsIgnoreCase("C")) {

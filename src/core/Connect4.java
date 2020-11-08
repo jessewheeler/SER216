@@ -1,11 +1,14 @@
 package core;
 
+import ui.Connect4GUI;
 import ui.Connect4TextConsole;
+
+import java.util.Scanner;
 
 /**
  * Connect4 Game
  * @author Jesse Wheeler
- * @version 1.0
+ * @version 1.1
  */
 
 public class Connect4
@@ -14,7 +17,8 @@ public class Connect4
      * Enumerable for UI type selection
      */
     public enum uiType {
-        CONSOLE
+        CONSOLE,
+        GUI
     }
 
     //INSTANCE VARIABLES
@@ -36,14 +40,18 @@ public class Connect4
     private Connect4ComputerPlayer computer;
     /** UI Type */
     private final uiType uiSelection;
+    /** Initialization prompt */
+    private static final String initPrompt = "Welcome to Connect4! Press 1 to play in the console or press 2 to play with a graphical interface.";
+    /** Command line arguments */
+    private static String[] arguments;
 
     /**
      * Public constructor - sets up UI mode
      */
-    public Connect4()
+    public Connect4(uiType uiSelection)
     {
         this.players = new Player[MAX_PLAYERS];
-        this.uiSelection = uiType.CONSOLE;
+        this.uiSelection = uiSelection;
         this.currentPlayerIndex = 0;
         this.board = new Board();
     }
@@ -86,8 +94,8 @@ public class Connect4
      * Sets up default players
      */
     public void setDefaultPlayers() {
-        this.players[0] = new Player("Player 1", "X");
-        this.players[1] = new Player("Player 2", "O");
+        this.players[0] = new Player("Player 1", "X", "Red");
+        this.players[1] = new Player("Player 2", "O", "Yellow");
         this.singlePlayerMode = false;
     }
 
@@ -96,8 +104,8 @@ public class Connect4
      */
 
     public void setSinglePlayerMode() {
-        Connect4ComputerPlayer computer = new Connect4ComputerPlayer("O");
-        this.players[0] = new Player("Player 1", "X");
+        Connect4ComputerPlayer computer = new Connect4ComputerPlayer("O", "Yellow");
+        this.players[0] = new Player("Player 1", "X", "Red");
         this.players[1] = computer;
         this.computer = computer;
         singlePlayerMode = true;
@@ -138,6 +146,9 @@ public class Connect4
             case CONSOLE:
                 Connect4TextConsole.startGame(this);
                 break;
+            case GUI:
+                Connect4GUI.startGame(this);
+                break;
         }
     }
 
@@ -162,7 +173,7 @@ public class Connect4
         /** Counter for number of moves remaining */
         private int movesRemaining;
         /** 2d Array representation of board */
-        private String[][] board;
+        private final String[][] board;
 
         /**
          * Constructor, instantiates board and default values
@@ -357,7 +368,46 @@ public class Connect4
      * @param args Not used at this point
      */
     public static void main(String args[]) {
-        Connect4 game = new Connect4();
+        arguments = args;
+        Connect4 game = new Connect4(getUIChoice());
         game.startGame();
+    }
+
+    /**
+     * Helper method to determine which UI should be used for the game via user input in console
+     * @return UI choice
+     */
+    private static uiType getUIChoice() {
+        Scanner input = new Scanner(System.in);
+        uiType uiChoice = null;
+        int selection = getUserIntegerInput(initPrompt, input);
+        while(selection != 1 && selection != 2) {
+            System.out.println("Sorry, that's not a valid selection.");
+            selection = getUserIntegerInput(initPrompt, input);
+        }
+        switch (selection) {
+            case 1:
+                uiChoice = uiType.CONSOLE;
+                break;
+            case 2:
+                uiChoice = uiType.GUI;
+                break;
+        }
+        return uiChoice;
+    }
+
+    /**
+     * Helper method for parsing user input
+     * @param prompt to show user
+     * @return integer input by user
+     */
+    private static int getUserIntegerInput(String prompt, Scanner input) {
+        System.out.println(prompt);
+        while(!input.hasNextInt()) {
+            System.out.println("That's not an integer.");
+            System.out.println(prompt);
+            input.next();
+        }
+        return input.nextInt();
     }
 }
